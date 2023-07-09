@@ -1,0 +1,23 @@
+.video{
+  background: url("../images/unsplash_dvACrXUExLs.png");
+  padding: 82px 181px;
+  width: 100%;
+  .video__box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .video__box-text{
+      top: 30px;
+      left: 150px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #FFFFFF;
+      position: absolute;
+    }
+    .video__box-border{
+      border:none;
+    }
+  }
+}

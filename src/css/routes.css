@@ -1,0 +1,114 @@
+.routes {
+  padding: 57px 0 119px 0;
+}
+.routes .routes__title {
+  margin-bottom: 67px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #121214;
+}
+.routes .routes__box {
+  width: 1440px;
+  margin: 0 auto;
+}
+.routes .routes__box .routes__box-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.routes .routes__box .routes__box-row .routes__box-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  padding-left: 151px;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #121214;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box_row-title::before {
+  content: "";
+  width: 81px;
+  height: 6px;
+  background: #037E8C;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_price {
+  margin: 9px 0 32px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #121214;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_info {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #121214;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_info.second {
+  margin: 10px 0;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_rout {
+  margin: 27px 0 13px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #121214;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #121214;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_btns {
+  margin-top: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_btns .routes__box-row_btn {
+  padding: 14px 44px 13px 45px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #037E8C;
+  background: transparent;
+  border: 1.5px solid #037E8C;
+  border-radius: 9px;
+}
+.routes .routes__box .routes__box-row .routes__box-left .routes__box-row_btns .routes__box-row_btn.second {
+  padding: 14px 29px 13px 29px;
+}
+.routes .routes__box .routes__box-row .routes__swiper {
+  width: 60%;
+}
+.routes .routes__box .routes__box-row .routes__swiper .swiper {
+  height: 343px;
+  width: 100%;
+}
+.routes .routes__box .routes__box-row .routes__swiper .swiper .swiper-wrapper .swiper_slide {
+  background: url("../images/swiperimg1.jpg");
+}

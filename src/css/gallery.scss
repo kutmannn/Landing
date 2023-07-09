@@ -1,0 +1,35 @@
+.gallery{
+  width: 100%;
+  padding: 63px 0 ;
+  .gallery__title{
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #121214;
+
+  }
+  .gallery__box{
+    justify-content: center;
+    column-gap: 40px;
+    display: flex;
+    .gallery__box-img{
+      .gallery-image_hidden{
+        display: none;
+      }
+      .gallery-image{
+        border-radius: 30px;
+        border: none;
+        transition: .3s;
+      }
+    }
+    .gallery__box-img:hover{
+      border-radius: 40px;
+      border: 10px solid #037E8C;
+      transition: .5s;
+      transform: scale(1.10 , 1.10);
+    }
+  }
+}

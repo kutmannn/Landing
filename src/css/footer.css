@@ -1,0 +1,17 @@
+.footer {
+  padding: 0;
+}
+.footer .footer__box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer__box .place__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

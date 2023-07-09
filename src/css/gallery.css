@@ -1,0 +1,24 @@
+.gallery {
+  width: 100%;
+  padding: 63px 0;
+}
+.gallery .gallery__title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #121214;
+}
+.gallery .gallery__box {
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery .gallery__box .gallery__box-img {
+  background: url("../images/000253 1.png") center/cover no-repeat;
+  width: calc(33.33333% - 13.33333px);
+}

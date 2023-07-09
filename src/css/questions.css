@@ -1,0 +1,11 @@
+.questions {
+  padding: 0 182px;
+  background: #FFFFFF;
+}
+.questions .questions__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #121214;
+}

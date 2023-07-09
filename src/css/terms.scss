@@ -1,0 +1,37 @@
+.terms{
+  background: #F4F4F4;
+  padding: 50px 70px 76px ;
+  .terms__title{
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #121214;
+
+  }
+  .terms__box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    .terms__row{
+      height: calc(50% - 15px);
+      display: flex;
+      column-gap: 30px;
+      .terms__row-card{
+        padding: 9px 27px 14px 5px;
+        display: flex;
+        width:calc(33.33333% - 10px) ;
+        .terms__row-card_text{
+          margin-left: 18px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #121214;
+        }
+      }
+    }
+  }
+}

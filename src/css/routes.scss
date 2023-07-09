@@ -1,0 +1,157 @@
+.routes{
+  padding: 57px 0 119px 0;
+  .routes__title{
+    margin-bottom: 67px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #121214;
+  }
+  .routes__box{
+    row-gap: 150px;
+    display: flex;
+    flex-direction:column ;
+    width: 1440px;
+    margin: 0 auto;
+    .routes__box-row{
+
+      display: flex;
+      .routes__box-left{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding-left: 151px;
+
+        .routes__box-row_title{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          color: #121214;
+        }
+        .routes__box_row-title::before{
+          content: '';
+          width: 81px;
+          height: 6px;
+          background: #037E8C;
+        }
+        .routes__box-row_price{
+          margin: 9px 0 32px 0;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          color: #121214;
+        }
+        .routes__box-row_info{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #121214;
+        }
+        .routes__box-row_info.second{
+          margin: 10px 0;
+        }
+        .routes__box-row_rout{
+          margin: 27px 0 13px 0;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          text-transform: uppercase;
+          color: #121214;
+
+        }
+        .routes__box-row_text{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160%;
+          color: #121214;
+
+        }
+        .routes__box-row_btns{
+          margin-top: 39px;
+          display: flex;
+          column-gap: 15px;
+          .routes__box-row_btn{
+            padding: 14px 44px 13px 45px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            color: #037E8C;
+            background: transparent;
+            border: 1.5px solid #037E8C;
+            border-radius: 9px;
+          }
+          .routes__box-row_btn.second{
+            padding: 14px 29px 13px 29px;
+          }
+        }
+
+      }
+      .routes__swiper{
+        .routes__box{
+          display: flex;
+          flex-direction: column;
+          row-gap: 150px;
+
+        }
+        .routes__box-row{
+          height: calc(33.33333% - 50px) ;
+          margin-bottom: 130px;
+        }
+        width: 60%;
+        .swiper{
+          height: 100%;
+          width: 100%;
+
+          .swiper-wrapper{
+            padding-left: 50px;
+            .swiper-wrapper.second{
+              padding: 0 50px 0 0 ;
+            }
+            .swiper-slide{
+              display: flex;
+              align-items: center;
+              cursor:pointer;
+              width: 40%;
+              }
+              .card{
+                border-radius:  30px;
+                transition: .3s;
+                background: url("../images/swiperimg1.jpg")
+              center/cover no-repeat;
+                width:100%;
+                height: 70%;
+
+              }
+            .card.second{
+              transition: .3s;
+              background: url("../images/Muzhchina-edet-po-lesnoj-doroge.jpg")
+              center/cover no-repeat;
+              width:100%;
+              height: 70%;
+            }
+            .card.third{
+              transition: .3s;
+              background:url("../images/card3.jpg")
+            center/cover no-repeat;
+              width:100%;
+              height: 70%;
+            }
+            .card:hover{
+              transform: scale(1.15 , 1.15)
+            }
+            }
+          }
+        }
+      }
+    }
+  }

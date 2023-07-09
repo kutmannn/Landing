@@ -1,0 +1,48 @@
+.begin {
+  padding: 262px 80px 192px 70px;
+  background: url("../images/beginbg.png") center/cover no-repeat;
+}
+.begin .begin__info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.begin .begin__info .begin__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 125.5%;
+  letter-spacing: 0.045em;
+  color: #FFFFFF;
+}
+.begin .begin__info .begin__text {
+  margin: 38px 0 71px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.begin .begin__info .begin__btn {
+  border: none;
+  column-gap: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #037E8C;
+  border-radius: 9px;
+  padding: 12px 12px 12px 23px;
+  display: flex;
+}
+.begin .begin__info .begin__btn .begin__btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

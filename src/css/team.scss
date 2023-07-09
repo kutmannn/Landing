@@ -1,0 +1,31 @@
+.team{
+  background: #E5E5E5;
+  padding: 64px 69px;
+  .team__row{
+    display: flex;
+    column-gap: 30px;
+    .team__row-card{
+      background: #dcdcdc;
+      width: calc(25% - 7.5px);
+      .team__row-info{
+        margin:17px 82px 22px 26px;
+      }
+      .team__row-card_title{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #037E8C;
+
+      }
+      .team__row-card_text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #121214;
+
+      }
+    }
+  }
+}

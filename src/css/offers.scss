@@ -1,0 +1,74 @@
+.offers{
+  padding: 70px 69px 75px;
+  .offers__title{
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #373737;
+
+  }
+  .offers__box{
+    column-gap: 20px;
+    display: flex;
+    .offers__info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 19px;
+      margin: 26px 15px 141px 25px;
+    }
+    .offers__info.second{
+      margin-bottom:0 ;
+    }
+    .offers__info2{
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+    }
+    .offers__box-card{
+      position: relative;
+      .card__title{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        color: #037E8C;
+      }
+      .offers__text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #373737;
+      }
+      width: calc(50% - 10px);
+      display: flex;
+
+    }
+  }
+}
+.offers-span{
+  font-size: 25px;
+
+}
+.card__decoration{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.offers__btn{
+  margin-top: 28px;
+  margin-left: 25px;
+  padding: 14px 45px;
+  border: 1.5px solid #037E8C;
+  border-radius: 9px;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #037E8C;
+
+}

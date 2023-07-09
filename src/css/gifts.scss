@@ -1,0 +1,122 @@
+.gifts{
+  background: #F4F4F4;
+  padding: 50px 70px 90px;
+  .gifts__title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #151515;
+
+  }
+  .gifts__text{
+    margin-bottom: 46px;
+    margin-top: 13px;
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     text-align: center;
+     color: #037E8C;
+
+   }
+  .gifts__cards{
+    column-gap: 40px;
+    display: flex;
+    .gifts__card.one{
+      justify-content: center;
+      row-gap: 31px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .gifts__card{
+      .gifts__right-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 172.5%;
+        color: #151515;
+
+      }
+      .gifts__right-btn{
+        background: transparent;
+        padding: 14px 22px;
+        border: 1.5px solid #037E8C;
+        border-radius: 9px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #037E8C;
+      }
+      .card__text{
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+        position: absolute;
+        left: 125px;
+        bottom: 59px;
+      }
+      height: 311px;
+      position: relative;
+      .gifts__decoration{
+        right: 0;
+        bottom: 0;
+        position: absolute;
+      }
+      .gifts__card-decoration{
+        position: absolute;
+        left: 23px ;
+        top: 22px;
+      }
+      .gifts__decoration2{
+        position: absolute;
+        right: 63px;
+        bottom: 81px;
+      }
+      .gifts__info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+        .gifts__info1{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          color: #FFFFFF;
+
+        }
+        .gifts__info2{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #FFFFFF;
+
+        }
+
+      }
+      display: flex;
+      flex-direction: column;
+      width: calc(50% - 20px);
+      .gifts__card-title{
+        top: 35px ;
+        right: 63px;
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        color: #121214;
+
+      }
+    }
+    .gifts__card.second{
+      background: #373737;
+      border-radius: 9px;
+    }
+  }
+}

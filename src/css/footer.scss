@@ -1,0 +1,56 @@
+.footer{
+  padding: 0;
+  .footer__box{
+    column-gap: 30px;
+    flex-direction: row;
+    display: flex;
+    .footer__box-left{
+      .send_message{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: #121214;
+        .message__title{
+          margin: 65px 0 16px 0;
+        }
+
+      }
+      .footer__box-left_title{
+        margin: 14px 0 64px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #121214;
+
+      }
+      .footer__box-left_place{
+        column-gap: 10px;
+        row-gap: 40px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      border-top: 3px solid #037E8C;
+      width: calc(50% - 15px);
+    }
+    .footer__box-right{
+      width: calc(50% - 20px);
+
+    }
+
+    .place__info{
+      width: calc(50% - 5px);
+      height: calc(50% - 20px);
+      display: flex;
+      .svggg{
+        position: relative;
+        .circle-vector{
+          margin: auto;
+
+        }
+      }
+    }
+  }
+
+}

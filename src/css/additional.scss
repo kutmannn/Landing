@@ -1,0 +1,41 @@
+.additional{
+  padding: 0 70px 109px;
+  .additional__title{
+    margin-bottom: 55px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #121214;
+
+  }
+  .additional__cards{
+    row-gap: 27px;
+    display: flex;
+    flex-direction: column;
+    .additional__cards-row{
+      column-gap: 30px;
+      display: flex;
+      .additional__cards-row_card{
+        display: flex;
+        flex-direction: column;
+        background: #e8e8e8;
+        border-radius: 9px;
+        width: calc(25% - 7.5px);
+        .additional__card-img{
+          width: 100%;
+        }
+        .additional__card-text{
+          margin: 9px 0 26px 24px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          color: #037E8C;
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.test{
+  width: 100%;
+  padding: 81px 345px 84px;
+  margin: 0 auto;
+  background: #121214;
+  .test__box{
+    text-align: center;
+    .test__box-title{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+
+    }
+    .test__box-text{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin: 19px 0 43px;
+
+    }
+    .test__box-btn{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      color: #FFFFFF;
+      padding: 14px 43px ;
+      background: #037E8C;
+      border-radius: 9px;
+    }
+  }
+}
